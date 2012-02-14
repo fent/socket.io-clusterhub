@@ -1,0 +1,31 @@
+{
+  "name": "socket.io-clusterhub",
+  "description": "socket.io storage powered by clusterhub for multi process applications.",
+  "keywords": ["socket.io", "store", "realtime", "cluster", "load balance"],
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fent/socket.io-clusterhub.git"
+  },
+  "author": "Roly Fentanes (https://github.com/fent)",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "mocha -R spec -u exports test/*-test.js"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "dependencies": {
+    "clusterhub": "0.1.x"
+  },
+  "devDependencies": {
+    "mocha": "0.10.x"
+  },
+  "licenses": [ {
+    "type": "MIT",
+    "url" : "http://github.com/fent/socket.io-clusterhub/raw/master/LICENSE"
+  }]
+}
