@@ -2,7 +2,7 @@
   "name": "socket.io-clusterhub",
   "description": "socket.io storage powered by clusterhub for multi process applications.",
   "keywords": ["socket.io", "store", "realtime", "cluster", "load balance"],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/fent/socket.io-clusterhub.git"
