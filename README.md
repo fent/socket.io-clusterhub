@@ -1,6 +1,6 @@
 # socket.io-clusterhub [![Build Status](https://secure.travis-ci.org/fent/socket.io-clusterhub.png)](http://travis-ci.org/fent/socket.io-clusterhub)
 
-A [socket.io](http://socket.io/) storage made with [clusterhub](https://github.com/fent/clusterhub). Syncs data between multi process socket.io applications.
+A [socket.io](http://socket.io/) storage made with [clusterhub](https://github.com/fent/clusterhub). Syncs data between multi-process socket.io applications.
 
 # Usage
 ```js
