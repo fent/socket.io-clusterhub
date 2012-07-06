@@ -16,14 +16,14 @@
     "lib": "./lib"
   },
   "engines": {
-    "node": ">=0.6.0"
+    "node": ">=0.8.0"
   },
   "dependencies": {
-    "clusterhub": "0.1.x"
+    "clusterhub": "0.2.x"
   },
   "devDependencies": {
     "should": "0.6.x",
-    "mocha": "0.10.x"
+    "mocha": "x"
   },
   "licenses": [ {
     "type": "MIT",
