@@ -146,12 +146,12 @@ exports['test cleaning up a particular client'] = function(done) {
           should.strictEqual(err, null);
           val.should.be.true;
 
-          store.clients.should.have.property(rand1);
-          store.clients.should.have.property(rand2);
+          store.clients.should.have.property([rand1]);
+          store.clients.should.have.property([rand2]);
           store.destroyClient(rand1);
 
-          store.clients.should.not.have.property(rand1);
-          store.clients.should.have.property(rand2);
+          store.clients.should.not.have.property([rand1]);
+          store.clients.should.have.property([rand2]);
 
           client1.has('a', function (err, val) {
             should.strictEqual(err, null);
