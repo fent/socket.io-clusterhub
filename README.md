@@ -2,6 +2,8 @@
 
 A [socket.io](http://socket.io/) storage made with [clusterhub](https://github.com/fent/clusterhub). Syncs data between multi-process socket.io applications.
 
+**Note:** Only works with socket.io version <= v0.9.0
+
 # Usage
 ```js
 var cluster = require('cluster');
