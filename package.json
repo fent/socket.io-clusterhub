@@ -22,9 +22,9 @@
     "clusterhub": "0.2.x"
   },
   "devDependencies": {
-    "mocha": "x",
-    "should": "~4.0.4",
-    "sinon": "~1.10.0"
+    "mocha": "*",
+    "should": "*",
+    "sinon": "*"
   },
   "licenses": [ {
     "type": "MIT",
